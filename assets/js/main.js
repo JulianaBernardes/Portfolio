@@ -24,18 +24,4 @@
 			speed: 1000,
 			offset: function() { return $nav.height(); }
 		});
-
-	// gif on hover	
-	$(function() {
-        $("#project1").hover(
-            function() {
-                $(this).attr("src", "images/gifDemo1.gif");
-			},
-            function() {
-                $(this).attr("src", "images/pic01.png");
-            }                         
-        );                  
-	});
-	
-
 })(jQuery);
