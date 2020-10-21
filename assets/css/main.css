@@ -1903,7 +1903,7 @@ input, select, textarea {
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
 			font-weight: 400;
 		}
 
@@ -1921,6 +1921,30 @@ input, select, textarea {
 
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
+		}
+
+		.icon.fa-js:before {
+			color:rgb(248, 220, 61);
+		}
+
+		.icon.fa-css3-alt:before {
+			color: rgb(38, 77, 228);
+		}
+
+		.icon.fa-html5:before {
+			color: rgb(241, 101, 41);
+		}
+
+		.icon.fa-react:before {
+			color: rgb(97, 218, 251);
+		}
+
+		.icon.fa-bootstrap:before {
+			color: rgb(121, 82, 179);
+		}
+
+		.icon.fa-sass:before {
+			color:rgb(191, 64, 128);
 		}
 
 		.icon.featured {
