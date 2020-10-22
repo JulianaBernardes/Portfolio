@@ -1777,7 +1777,7 @@ input, select, textarea {
 		ul.social li {
 			position: relative;
 			display: inline-block;
-			margin: 0.25em;
+			margin: 0.75em;
 			top: 0;
 			padding-left: 0;
 		}
@@ -1804,7 +1804,7 @@ input, select, textarea {
 					-webkit-transition: background-color .2s ease-in-out;
 					-ms-transition: background-color .2s ease-in-out;
 					transition: background-color .2s ease-in-out;
-					background-color: #444;
+					/* background-color: rgba(68, 68, 68); */
 					border-radius: 6px;
 					box-shadow: inset 0px 0px 0px 1px #282828, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.1);
 					color: #2E2E2E !important;
@@ -1824,8 +1824,7 @@ input, select, textarea {
 					background-color: #006599;
 				}
 
-				ul.social li a.fa-google-plus {
-					/* background-color: #DA2713; */
+				ul.social li a.fa-envelope {
 					background-color: #D44638;
 				}
 
@@ -1920,7 +1919,7 @@ input, select, textarea {
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: 'Font Awesome 5 Brands', 'Font Awesome 5 Free';
 		}
 
 		.icon.fa-js:before {
