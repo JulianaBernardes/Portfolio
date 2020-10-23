@@ -1698,7 +1698,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			background-color: rgba(1444, 1444, 1444, 0.075);
-			color: #fff !important;
+			color: rgb(182, 182, 182) !important;
 			font-weight: 550;
 		}
 
